@@ -1,0 +1,23 @@
+{
+  "_note": "Edit cities and categories below. Every category is searched in every city.",
+  "cities": [
+    {"city": "Houston", "state": "TX", "country": "United States"},
+    {"city": "Dallas",  "state": "TX", "country": "United States"}
+  ],
+  "categories": [
+    "plumber",
+    "electrician",
+    "hvac contractor",
+    "roofing contractor",
+    "handyman",
+    "appliance repair"
+  ],
+  "phone_region": "US",
+  "max_results_per_search": 120,
+  "headless": false,
+  "min_delay_seconds": 1.5,
+  "max_delay_seconds": 3.5,
+  "scrape_about_tab": true,
+  "min_reviews": 10,
+  "chain_same_name_city_threshold": 3
+}
